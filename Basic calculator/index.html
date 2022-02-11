@@ -1,0 +1,52 @@
+<html>
+
+<head>
+  <title>Project Basic Calculator</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <!--CSS-->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col d-flex justify-content-center">
+        <br />
+        <div class="calculator">
+          <input type="text" class="form-control resultado screen" placeholder="0" disabled="disabled" />
+          <div class="row">
+            <button type="button" class="btn clr-Lgray btn-lg clear font-weight-light actions" name="clear">AC</button>
+            <button type="button" class="btn clr-orange btn-lg font-weight-light actions" name="division">/</button>
+            <button type="button" class="btn clr-orange btn-lg font-weight-light actions" name="multiply">*</button>
+          </div>
+          <div class="row">
+            <button type="button" class="btn clr-Dgray btn-lg font-weight-light numbers" data-name="7">7</button>
+            <button type="button" class="btn clr-Dgray btn-lg font-weight-light numbers" data-name="8">8</button>
+            <button type="button" class="btn clr-Dgray btn-lg font-weight-light numbers" data-name="9">9</button>
+            <button type="button" class="btn clr-orange btn-lg font-weight-light actions" name="minus">-</button>
+          </div>
+          <div class="row">
+            <button type="button" class="btn clr-Dgray btn-lg font-weight-light numbers" data-name="4">4</button>
+            <button type="button" class="btn clr-Dgray btn-lg font-weight-light numbers" data-name="5">5</button>
+            <button type="button" class="btn clr-Dgray btn-lg font-weight-light numbers" data-name="6">6</button>
+            <button type="button" class="btn clr-orange btn-lg font-weight-light actions" name="plus">+</button>
+          </div>
+          <div class="row">
+            <button type="button" class="btn clr-Dgray btn-lg font-weight-light numbers" data-name="1">1</button>
+            <button type="button" class="btn clr-Dgray btn-lg font-weight-light numbers" data-name="2">2</button>
+            <button type="button" class="btn clr-Dgray btn-lg font-weight-light numbers" data-name="3">3</button>
+            <button type="button" class="btn clr-orange btn-lg enter actions" name="equal">=</button>
+          </div>
+          <div class="row" style="margin-top: -60px">
+            <button type="button" class="btn clr-Dgray zero btn-lg font-weight-light numbers" data-name="0">0</button>
+            <button type="button" class="btn clr-Dgray btn-lg font-weight-light numbers" data-name=".">.</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
